@@ -13,24 +13,11 @@ console.log(summ(3,10,10)); */
 
 // 2 
 
-/* function Sort(strs) {
-    strs = ["сортировка", "добрый", "денёк"] 
-    let a = ["а","б","в","г","д","е",'ё','ж','з','и','й','к',"л",'м','н','о','п','р','с','т','у','ф','х','ц',"ч",'ш','щ',"ъ",'ы','ь','э','ю','я'];
-    let result = "";
-        for (let elem of strs) {
-            for (i=0; i<=a.length; i++) {
-                for(j=0; j<=elem.length; j++) {
-                    if (a[i] === elem.charAt(j)) {
-                        result +=a[i]
-                    }  
-                }
-            }
-            result += " " 
-        }
-    return result;
+/* function strSort(str1, str2, str3) {
+    let arr = [str1, str2, str3];
+    return arr.sort();
 }
-
-console.log(Sort()); */
+console.log(strSort("Сортировка", "успешно", "выполнена")); */
 
 // 3
 /* let text = prompt('Введите текст');
